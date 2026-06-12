@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sarobidy Leticia Andriamihanta — Développeuse d'applications</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand">SL<span class="dot">.</span>A</a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#about">À propos</a>
+      <a href="#experience">Parcours</a>
+      <a href="#skills">Compétences</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact" class="nav__cta">Contact</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="hero__bg" aria-hidden="true">&lt;/&gt;</div>
+  <div class="hero__inner">
+    <div class="hero__text">
+      <p class="eyebrow"><span class="eyebrow__bracket">{</span> en cours de formation — EMIT, M1<sup></sup><span class="eyebrow__bracket">}</span></p>
+      <h1 class="hero__title">Sarobidy Leticia<br>Andriamihanta</h1>
+      <p class="hero__role">Développeuse d'applications <span class="hero__divider">·</span> desktop, web &amp; mobile</p>
+      <p class="hero__desc">
+        Étudiante en Licence Développement d'Application Intranet et Internet à Fianarantsoa,
+        je conçois des outils qui simplifient des problèmes concrets : suivi de notes,
+        gestion de visiteurs, vente en ligne. J'aime construire du code lisible,
+        du formulaire à la base de données.
+      </p>
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">Voir mes projets</a>
+        <a href="#contact" class="btn btn--ghost">Me contacter</a>
+      </div>
+    </div>
+    <div class="hero__media">
+      <div class="hero__frame">
+        <img src="assets/profile.jpg" alt="Portrait de Sarobidy Leticia Andriamihanta" class="hero__photo">
+      </div>
+      <div class="hero__card">
+        <span class="hero__card-label">Localisation</span>
+        <span class="hero__card-value">Fianarantsoa, Madagascar</span>
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Défiler vers le bas"><span></span></a>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section" id="about">
+  <div class="section__inner about">
+    <p class="section__label"><span class="bracket">{</span> à propos <span class="bracket">}</span></p>
+    <div class="about__grid">
+      <h2 class="section__title">
+        Construire des applications utiles, <span class="highlight">de bout en bout.</span>
+      </h2>
+      <div class="about__text">
+        <p>
+          Originaire de Fianarantsoa, je termine actuellement ma 3<sup>e</sup> année de Licence
+          en Développement d'Application Intranet et Internet (DAII) à l'EMIT. Mon parcours
+          m'a permis de toucher au développement desktop, web et mobile, ainsi qu'à la
+          gestion de bases de données.
+        </p>
+        <p>
+          J'aime particulièrement les projets où le code répond à un besoin réel :
+          automatiser un suivi de notes, organiser l'accueil de visiteurs dans un hôtel,
+          ou mettre une boutique en ligne. Rigoureuse et curieuse, je continue d'élargir
+          mes compétences, du backend aux interfaces.
+        </p>
+        <ul class="about__facts">
+          <li><span class="fact__label">Formation</span><span class="fact__value">EMIT — Licence DAII, 3<sup>e</sup> année</span></li>
+          <li><span class="fact__label">Localisation</span><span class="fact__value">374-AE/3602 Ankofafa Ambony, Fianarantsoa</span></li>
+          <li><span class="fact__label">Disponibilité</span><span class="fact__value">Stages, projets &amp; opportunités junior</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE & EDUCATION ===== -->
+<section class="section section--alt" id="experience">
+  <div class="section__inner">
+    <p class="section__label"><span class="bracket">{</span> expérience professionnelle <span class="bracket">}</span></p>
+    <h2 class="section__title">Parcours</h2>
+
+    <div class="timeline">
+      <div class="timeline__item">
+        <div class="timeline__date">16 juin 2025 — 16 sept. 2025</div>
+        <div class="timeline__content">
+          <h3>Développeuse application web — SRBHM</h3>
+          <p>
+            Conception et réalisation d'une application de gestion des visiteurs et des
+            demandes administratives pour l'Hôtel de Finance de Fianarantsoa : orientation
+            des visiteurs, génération de tickets et suivi numérique des dossiers.
+          </p>
+          <div class="tag-row">
+            <span class="tag">JSP</span><span class="tag">Java</span><span class="tag">SQL</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline__item">
+        <div class="timeline__date">24 juin 2024 — 24 août 2024</div>
+        <div class="timeline__content">
+          <h3>Développeuse application desktop — InsPNMad</h3>
+          <p>
+            Conception et réalisation d'une application de gestion des notes des étudiants,
+            pensée pour faciliter l'organisation des données, le suivi de la performance
+            et la communication au sein de l'établissement.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Java</span><span class="tag">NetBeans</span><span class="tag">SQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="section__label section__label--spaced"><span class="bracket">{</span> formation <span class="bracket">}</span></p>
+
+    <div class="timeline timeline--compact">
+      <div class="timeline__item">
+        <div class="timeline__date">2024 — 2025</div>
+        <div class="timeline__content">
+          <h3>EMIT — 3<sup>e</sup> année Licence</h3>
+          <p>Développement d'Application Intranet et Internet (DAII).</p>
+        </div>
+      </div>
+      <div class="timeline__item">
+        <div class="timeline__date">2023 — 2024</div>
+        <div class="timeline__content">
+          <h3>EMIT — 2<sup>e</sup> année Licence</h3>
+          <p>Développement d'Application Intranet et Internet (DAII).</p>
+        </div>
+      </div>
+      <div class="timeline__item">
+        <div class="timeline__date">2022 — 2023</div>
+        <div class="timeline__content">
+          <h3>EMIT — 1<sup>re</sup> année Licence</h3>
+          <p>Développement d'Application Intranet et Internet (DAII).</p>
+        </div>
+      </div>
+      <div class="timeline__item">
+        <div class="timeline__date">2021 — 2022</div>
+        <div class="timeline__content">
+          <h3>Fo Masin'i Jesoa Talatamaty Fianarantsoa</h3>
+          <p>Classe de terminale.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="section" id="skills">
+  <div class="section__inner">
+    <p class="section__label"><span class="bracket">{</span> compétences <span class="bracket">}</span></p>
+    <h2 class="section__title">Boîte à outils</h2>
+
+    <div class="skills">
+      <div class="skills__group">
+        <h3>Langages</h3>
+        <div class="tag-row">
+          <span class="tag">Java</span>
+          <span class="tag">C++</span>
+          <span class="tag">Python</span>
+          <span class="tag">Visual Basic</span>
+          <span class="tag">JavaScript</span>
+        </div>
+      </div>
+      <div class="skills__group">
+        <h3>Développement web</h3>
+        <div class="tag-row">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">JSP</span>
+          <span class="tag">PHP</span>
+          <span class="tag">ASP</span>
+          <span class="tag">Node.js</span>
+        </div>
+      </div>
+      <div class="skills__group">
+        <h3>Bases de données</h3>
+        <div class="tag-row">
+          <span class="tag">MySQL</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">Oracle</span>
+        </div>
+      </div>
+      <div class="skills__group">
+        <h3>Outils &amp; environnements</h3>
+        <div class="tag-row">
+          <span class="tag">NetBeans</span>
+          <span class="tag">IntelliJ</span>
+          <span class="tag">VS Code</span>
+          <span class="tag">VirtualBox</span>
+          <span class="tag">PacketTracer</span>
+          <span class="tag">Flutter</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="section section--alt" id="projects">
+  <div class="section__inner">
+    <p class="section__label"><span class="bracket">{</span> projets <span class="bracket">}</span></p>
+    <h2 class="section__title">Réalisations</h2>
+
+    <div class="projects">
+      <article class="project">
+        <span class="project__index">desktop</span>
+        <h3>Gestion des notes des étudiants</h3>
+        <p>
+          Application desktop pour l'InsPNMad permettant l'organisation et le regroupement
+          des données des étudiants, l'automatisation des calculs et le suivi de la
+          performance — pour gagner en clarté au quotidien.
+        </p>
+        <div class="tag-row">
+          <span class="tag tag--ghost">Java</span>
+          <span class="tag tag--ghost">NetBeans</span>
+          <span class="tag tag--ghost">SQL</span>
+        </div>
+      </article>
+
+      <article class="project">
+        <span class="project__index">web</span>
+        <h3>Gestion des visiteurs — Hôtel de Finance</h3>
+        <p>
+          Application web pour le SRBHM destinée à orienter les visiteurs vers le bon
+          service, gérer les demandes administratives et conserver un historique
+          numérique des dossiers traités.
+        </p>
+        <div class="tag-row">
+          <span class="tag tag--ghost">JSP</span>
+          <span class="tag tag--ghost">Java</span>
+          <span class="tag tag--ghost">SQL</span>
+        </div>
+      </article>
+
+      <article class="project">
+        <span class="project__index">e-commerce</span>
+        <h3>Vente de produits cosmétiques en ligne</h3>
+        <p>
+          Plateforme permettant de consulter et de commander des produits cosmétiques
+          en ligne, avec une interface pensée pour la consultation et un backend
+          dédié à la gestion des commandes.
+        </p>
+        <div class="tag-row">
+          <span class="tag tag--ghost">JSP</span>
+          <span class="tag tag--ghost">IntelliJ</span>
+          <span class="tag tag--ghost">VS Code</span>
+        </div>
+      </article>
+
+      <article class="project">
+        <span class="project__index">mobile</span>
+        <h3>Bloc-notes mobile</h3>
+        <p>
+          Application mobile de prise de notes, conçue pour rester simple et rapide
+          d'usage : créer, modifier et organiser ses notes directement depuis son
+          téléphone.
+        </p>
+        <div class="tag-row">
+          <span class="tag tag--ghost">Flutter</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<footer class="footer" id="contact">
+  <div class="footer__bg" aria-hidden="true">&lt;/&gt;</div>
+  <div class="section__inner footer__inner">
+    <p class="section__label section__label--light"><span class="bracket">{</span> contact <span class="bracket">}</span></p>
+    <h2 class="footer__title">Discutons de votre prochain projet.</h2>
+    <p class="footer__desc">
+      Disponible pour des stages, des projets étudiants ou de premières
+      opportunités professionnelles.
+    </p>
+    <div class="footer__grid">
+      <a href="mailto:sarobidyandriamihanta12@gmail.com" class="footer__item">
+        <span class="footer__item-label">Email</span>
+        <span class="footer__item-value">sarobidyandriamihanta12@gmail.com</span>
+      </a>
+      <a href="tel:0386112571" class="footer__item">
+        <span class="footer__item-label">Téléphone</span>
+        <span class="footer__item-value">03 86 11 25 71</span>
+      </a>
+      <div class="footer__item">
+        <span class="footer__item-label">Adresse</span>
+        <span class="footer__item-value">374-AE/3602 Ankofafa Ambony, Fianarantsoa</span>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Sarobidy Leticia Andriamihanta</span>
+      <a href="#top">Retour en haut ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
